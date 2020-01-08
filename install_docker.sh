@@ -10,4 +10,4 @@ newgrp docker
 rm get-docker.sh
 docker -v
 docker-compose --version
-echo "Docker was installed"
+echo "Docker was installed $(docker -v)"
