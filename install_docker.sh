@@ -8,4 +8,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo usermod -aG docker $USER
 newgrp docker
 rm get-docker.sh
-echo "Docker was installed $(docker -v)\n$(docker-compose --version)"
+echo -e "Docker was installed $(docker -v)\n$(docker-compose --version)"
